@@ -1,0 +1,8 @@
+@mixin button($padding-button: 20px, $bg-button: khaki) {
+    border: 0px;
+    padding: $padding-button;
+    font-size: 2rem;
+    background-color: $bg-button;
+    border-radius: 10px;
+    cursor: pointer;
+}

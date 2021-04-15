@@ -1,0 +1,9 @@
+main {
+    background-color: $background-secondary;
+    h3{
+        color: $color-secondary;
+    }
+    button{
+        @include button($padding-button: 10px, $bg-button: orange);
+    }
+}

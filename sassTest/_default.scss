@@ -1,0 +1,17 @@
+html, body{
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1{
+    color: $color-primary;
+}

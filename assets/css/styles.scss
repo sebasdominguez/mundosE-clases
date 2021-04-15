@@ -1,13 +1,19 @@
-
 li{
     list-style: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 35px;
+    p{
+        color: rgb(255, 47, 0);
+    }
 }
 
-.ul-nav li{
-    cursor: pointer;
+.ul-nav {
+    font-size: 1rem;
+
+    li{
+        cursor: pointer;
+    }
 }
 
 h1{

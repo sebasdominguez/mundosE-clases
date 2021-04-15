@@ -1,0 +1,59 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before  {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1 {
+  color: red;
+}
+
+header {
+  background-color: #5b5858;
+}
+
+header p {
+  color: blue;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: "Lucida Sans";
+}
+
+header .header__button {
+  border: 0px;
+  padding: 20px;
+  font-size: 2rem;
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #8080f4;
+}
+
+main h3 {
+  color: blue;
+}
+
+main button {
+  border: 0px;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

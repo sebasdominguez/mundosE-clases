@@ -1,0 +1,13 @@
+header{
+    background-color: $background-primary;
+    p{
+        color:blue;
+    }
+    h1{
+        font-size: 3rem;
+        font-family: $font-primary;
+    }
+    .header__button{
+        @include button($bg-button: green);
+    }
+}
